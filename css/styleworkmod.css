@@ -1,0 +1,21 @@
+@import url(stylenavbar.css);
+@import url(stylefooter.css);
+@import url(stylegallery.css);
+ /* Estilo para cada contenedor de imagen */
+.image-container {
+    position: relative;
+    width: 33.33%; /* Ancho de cada imagen, ajusta según sea necesario */
+    overflow: hidden;
+    padding: 15px;
+    margin-top: 2px;
+}
+@media(max-width:1100px){
+    .image-container{
+      width: 50%;
+    }
+  }
+  @media(max-width:600px){
+    .image-container{
+      width: 100%;
+    }
+  }
