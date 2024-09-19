@@ -1,0 +1,55 @@
+@import url(css/stylenavbar.css);
+@import url(css/stylefooter.css);
+.año{
+  color: #ff4701;
+  float: right;
+  padding-right: 15%;
+  padding-top: 33%;
+  border-bottom-color: #ff4701;
+  border-bottom-style: solid;
+}
+h1{
+  font-size: 1rem;
+  text-align: center;
+}
+.Work{
+  color: #F0ECE3;
+  background-image: url(img/fondowork\ finissimo.png);
+  background-size: cover;
+  padding:2.5%;
+  padding-left: 12%;
+}
+#carouselExample{
+  max-width: 75%;
+  margin-inline: 12.5%;
+  margin-bottom: 2%;
+  overflow: none;
+}
+#carouselExample > img {
+  width: 100%;
+}
+.carousel-item{
+  text-align: center;
+}
+.imagenescarousel{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+ .año{
+  font-size: 20px;
+}
+.parallax {
+  background-image: url(img/parafondoweno.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  min-height: 25vh;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-areas: "stack";
+}
+.parallax > img{
+  width: 100%;
+}
